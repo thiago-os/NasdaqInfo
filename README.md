@@ -1,1 +1,1 @@
-This function scrapes the list of tickers that changed recently published by the Nasdaq and returns the result as a dataframe or dictionary. Dependencies: Pandas, requests, and random.
+This module scrapes some information from the Nasdaq: 1) The list of tickers that changed recently published by the Nasdaq and returns the result as a dataframe or dictionary. 2) The list of non compliant stocks (risking to be delisted) returned as an object with dataframe attributes. Dependencies: Pandas, requests, random, time, and selenium.
